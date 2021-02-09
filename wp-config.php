@@ -29,6 +29,8 @@ define('WPLANG', 'en');
 define('WP_DEBUG', false);
 define( 'WP_AUTO_UPDATE_CORE', false );
 
+{code type=”php”}
+define(‘UPLOADS’, ‘wp-content/uploads);
 
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
