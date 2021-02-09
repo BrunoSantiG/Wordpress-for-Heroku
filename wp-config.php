@@ -28,10 +28,11 @@ define('WPLANG', 'en');
 
 define('WP_DEBUG', false);
 define( 'WP_AUTO_UPDATE_CORE', false );
-define('UPLOADS', 'wp-content/uploads');
 
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 
 require_once(ABSPATH . 'wp-settings.php');
+
+define('UPLOADS', 'wp-content/uploads');
